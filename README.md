@@ -30,6 +30,8 @@ samples, guidance on mobile development, and a full API reference.
 
 - [Packages && Plugins](https://pub.dev/)
 
+- [Localizations](https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html)
+
 ## external package
 - flutter pub add english_words
 
