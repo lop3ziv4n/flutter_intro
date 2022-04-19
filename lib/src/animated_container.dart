@@ -47,12 +47,12 @@ class _MyHomePageState extends State<MyHomePage> {
       )),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.play_arrow),
-        onPressed: _cambiarForma,
+        onPressed: _changeForm,
       ),
     );
   }
 
-  void _cambiarForma() {
+  void _changeForm() {
     final random = Random();
     setState(() {
       _width = random.nextInt(300).toDouble();
